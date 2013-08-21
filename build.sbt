@@ -6,7 +6,7 @@ name := "Hello World"
 
 version := "1.0"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.9.3"
 
 resolvers += "twitter-repo" at "http://maven.twttr.com"
 
