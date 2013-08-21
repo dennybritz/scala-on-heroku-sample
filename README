@@ -7,4 +7,11 @@ This is a sample project that shows how to deploy a Scala application on Heroku.
 - `project/build.properties` - Defined sbt version.
 - `build.sbt` -  Project settings and dependencies. Also includes the the tasks and settings from the [sbt-start-script plugin](https://github.com/sbt/sbt-start-script)].
 
+## Deploying to Heroku
 
+```shell
+# Create a new heroku application
+heroku create 
+# Push the repo to heroku
+git push heroku master
+```
